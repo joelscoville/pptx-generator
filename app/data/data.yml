@@ -1447,12 +1447,12 @@
     - "Be still for the power of the Lord"
     - "Is moving in this place."
 
-  'kri144':
-    title: "Come, Christians, Join to Sing"
-    author: ["Christian H. Bateman"]
-    verse_number: [1, 2, 3]
-    kri_number: 144
-    lyrics:
+'kri144':
+  title: "Come, Christians, Join to Sing"
+  author: ["Christian H. Bateman"]
+  verse_number: [1,2,3]
+  kri_number: 144
+  lyrics:
     - - "Come, Christians, join to sing,"
       - "Alleluia, Amen!"
       - "Loud praise to Christ our King,"
