@@ -422,6 +422,33 @@
     - "This my song through endless ages:"
     - "Jesus led me all the way."
 
+'kri26':
+  title: "For God So Loved The World"
+  author: ["Lanny Wolfe"]
+  verse_number: [1, 2, 3]
+  kri_numbber: 26
+  lyrics:
+  - - "For God So Loved The World"
+    - "He Gave His Only Son"
+    - "To Die On Calvary's Tree"
+    - "From Sin To Set Me Free"
+    - "Some Day He’s Coming Back"
+    - "What Glory That Will Be,"
+    - "Wonderful His Love To Me."
+  - - "He Came Unto His Own"
+    - "His Own Received Him Not"
+    - "But All Who Will Believe"
+    - "The Power To Receive"
+    - "To Be The Sons Of God"
+    - "By Trusting In His Name"
+    - "I’m So Glad That Jesus Came."
+  - - "If God So Loved The World"
+    - "Then We Should Love Them Too"
+    - "And Strive To Live For Him"
+    - "Lost Sinners Seek To Win"
+    - "So They’d Be Ready When"
+    - "Christ Comes To Earth Again"
+    - "Glorious Will His Coming Be."
 
 'kri35':
   title: "O Mighty Cross"
