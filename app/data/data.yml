@@ -6,7 +6,7 @@
   lyrics:
   - - ""
     - ""
-    
+
 'kri1':
   title: "How Great Thou Art"
   author: [Carl Rob]
@@ -995,9 +995,40 @@
     - "and from the ground there blossoms red"
     - "Life that shall endless be."
 
+'kri84':
+  title: "Speak to My Heart"
+  author: ["B. B. McKinney"]
+  verse_number: [1,"ref", 2, "ref", 3, "ref"]
+  kri_number: 84
+  lyrics: 
+  - - "Speak to my heart, Lord Jesus,"
+    - "speak that my soul may hear;"
+    - "speak to my heart, Lord Jesus,"
+    - "calm every doubt and fear."
+  - - "Speak to my heart, oh, speak to my heart,"
+    - "speak to my heart, I pray;"
+    - "yielded and still, seeking Thy will,"
+    - "oh, speak to my heart today."
+  - - "Speak to my heart, Lord Jesus,"
+    - "purge me from every sin;"
+    - "speak to my heart, Lord Jesus,"
+    - "help me the lost to win. "
+  - - "Speak to my heart, oh, speak to my heart,"
+    - "speak to my heart, I pray;"
+    - "yielded and still, seeking Thy will,"
+    - "oh, speak to my heart today."
+  - - "Speak to my heart, Lord Jesus,"
+    - "it is no longer mine:"
+    - "speak to my heart, Lord Jesus,"
+    - "I would be wholly Thine."
+  - - "Speak to my heart, oh, speak to my heart,"
+    - "speak to my heart, I pray;"
+    - "yielded and still, seeking Thy will,"
+    - "oh, speak to my heart today."
+
 'kri88':
   title: "Lord of the Universe"
-  author: ["E. Margaret Clarkson"]
+  author: ["B. B. McKinney"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 88
   lyrics: 
@@ -1264,6 +1295,44 @@
     - "Roti surga kenyangkanlah hatiku!"
     - "Inilah cawanku, p'nuhi, Tuhan."
 
+'kri100':
+  title: "The Way of the Cross"
+  author: ["Mary E. Maxwell"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 100
+  lyrics: 
+  - - "The way of the cross means sacrifice,"
+    - "As to God you yield your all;"
+    - "To be laid on the altar, the place of death,"
+    - "Where fire will surely fall."
+  - - "’Tis the way of the cross! are you willing for this?"
+    - "What does bearing the cross mean to you?"
+    - "You who’ve given yourself, your all, to God!"
+    - "To God are you wholly true?"
+  - - "As the voice of song and prayer we raise,"
+    - "How easy to say, We give all!"
+    - "Till some rougher cross lies just before,"
+    - "And sterner is duty’s call."
+  - - "’Tis the way of the cross! are you willing for this?"
+    - "What does bearing the cross mean to you?"
+    - "You who’ve given yourself, your all, to God!"
+    - "To God are you wholly true?"
+  - - "Do you falter then, or, true to death,"
+    - "Just die on the cross in the way,"
+    - "Till the fullness of life from the Living One"
+    - "Is filling you day by day?"
+  - - "’Tis the way of the cross! are you willing for this?"
+    - "What does bearing the cross mean to you?"
+    - "You who’ve given yourself, your all, to God!"
+    - "To God are you wholly true?"
+  - - "’Tis the place of life—for you die to live,"
+    - "One with Jesus crucified;"
+    - "With the life alone to be lived thro’ you,"
+    - "Of the risen, the glorified! "
+  - - "’Tis the way of the cross! are you willing for this?"
+    - "What does bearing the cross mean to you?"
+    - "You who’ve given yourself, your all, to God!"
+    - "To God are you wholly true?"
 
 'kri101':
   title: "Living For Jesus"
@@ -1556,6 +1625,137 @@
   - - "Hujan berkat-Mu itu yang kami perlu,"
     - "Rahmat yang bergrimis turun, tapi hujan kurindu."
 
+'inkri119':
+  title: "Kita Harus Membawa Berita"
+  author: ["Henry E. Nichol"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 119
+  lyrics: 
+  - - "Kita harus membawa berita"
+    - "pada dunia dalam gelap"
+    - "tentang kebenaran dan kasih,"
+    - "dan damai yang menetap,"
+    - "dan damai yang menetap."
+  - - "Kar'na g'lap jadi remang pagi,"
+    - "dan remang jadi siang t'rang;"
+    - "kuasa Kristus kan nyatalah,"
+    - "rahmani dan cemerlang."
+  - - "Kita harus menyanyikan gita,"
+    - "melembutkan hati keras,"
+    - "supaya senjata Iblis"
+    - "remuk dan seg'ra lepas,"
+    - "remuk dan seg'ra lepas."
+  - - "Kar'na g'lap jadi remang pagi,"
+    - "dan remang jadi siang t'rang;"
+    - "kuasa Kristus kan nyatalah,"
+    - "rahmani dan cemerlang."
+  - - "Kita harus membawa berita,"
+    - "Allah itu kasih belas,"
+    - "dib'rikan Putra tunggal-Nya"
+    - "supaya kita lepas,"
+    - "supaya kita lepas."
+  - - "Kar'na g'lap jadi remang pagi,"
+    - "dan remang jadi siang t'rang;"
+    - "kuasa Kristus kan nyatalah,"
+    - "rahmani dan cemerlang."
+  - - "Kita harus bersaksi di dunia"
+    - "tentang kuasa darah kudus;"
+    - "semoga yang masih ragu"
+    - "terima Sang Penebus,"
+    - "terima Sang Penebus."
+  - - "Kar'na g'lap jadi remang pagi,"
+    - "dan remang jadi siang t'rang;"
+    - "kuasa Kristus kan nyatalah,"
+    - "rahmani dan cemerlang."
+  - - "Kar'na g'lap jadi remang pagi,"
+    - "dan remang jadi siang t'rang;"
+    - "kuasa Kristus kan nyatalah,"
+    - "rahmani dan cemerlang."
+
+'kri119':
+  title: "We've A Story To Tell To The Nations"
+  author: ["Henry E. Nichol"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 119
+  lyrics: 
+  - - "We've a story to tell to the nations,"
+    - "that shall turn their hearts to the right,"
+    - "a story of truth and mercy,"
+    - "a story of peace and light,"
+    - "a story of peace and light."
+  - - "For the darkness shall turn to dawning,"
+    - "and the dawning to noonday bright;"
+    - "and Christ's great kingdom shall come on earth,"
+    - "the kingdom of love and light."
+  - - "We've a song to be sung to the nations,"
+    - "that shall lift their hearts to the Lord,"
+    - "a song that shall conquer evil"
+    - "and shatter the spear and sword,"
+    - "and shatter the spear and sword."
+  - - "For the darkness shall turn to dawning,"
+    - "and the dawning to noonday bright;"
+    - "and Christ's great kingdom shall come on earth,"
+    - "the kingdom of love and light."
+  - - "We've a message to give to the nations,"
+    - "that the Lord who reigneth above"
+    - "hath sent us His Son to save us,"
+    - "and show us that God is love,"
+    - "and show us that God is love."
+  - - "For the darkness shall turn to dawning,"
+    - "and the dawning to noonday bright;"
+    - "and Christ's great kingdom shall come on earth,"
+    - "the kingdom of love and light."
+  - - "We've a Savior to show to the nations,"
+    - "who the path of sorrow hath trod,"
+    - "that all of the world's great peoples"
+    - "may come to the truth of God,"
+    - "may come to the truth of God."
+  - - "For the darkness shall turn to dawning,"
+    - "and the dawning to noonday bright;"
+    - "and Christ's great kingdom shall come on earth,"
+    - "the kingdom of love and light."
+  - - "For the darkness shall turn to dawning,"
+    - "and the dawning to noonday bright;"
+    - "and Christ's great kingdom shall come on earth,"
+    - "the kingdom of love and light."
+
+'inkri206':
+  title: "Umat Tuhan Menantikan"
+  author: ["Charles Wesley","Rowland H. Prichard"]
+  verse_number: [1, 2]
+  kri_number: 206
+  lyrics: 
+  - - "Umat Tuhan menantikan kedatangan Kristus;"
+    - "b'ri damai, bebaskan takut, dosa kami dihapus."
+    - "Kaulah kekuatan, penghiburan, pengharapan kami;"
+    - "Yang dinanti s'luruh bangsa, sukacita abadi."
+  - - "Bayi itulah Sang Raja yang bebaskan umat-Nya;"
+    - "lahir tuk mem'rintah kita, membawa K'rajaan-Nya."
+    - "Hanya Roh Kudus-Mu, Tuhan, mem'rintah hati kami;"
+    - "Hanya oleh anug'rah saja, surga kami masuki."
+
+'kri206':
+  title: "Come, Thou Long Expected Jesus"
+  author: ["Charles Wesley","Rowland H. Prichard"]
+  verse_number: [1, 2]
+  kri_number: 206
+  lyrics: 
+  - - "Come, Thou long expected Jesus"
+    - "Born to set Thy people free;"
+    - "From our fears and sins release us,"
+    - "Let us find our rest in Thee."
+    - "Israel’s Strength and Consolation,"
+    - "Hope of all the earth Thou art;"
+    - "Dear Desire of every nation,"
+    - "Joy of every longing heart."
+  - - "Born Thy people to deliver,"
+    - "Born a child and yet a King,"
+    - "Born to reign in us forever,"
+    - "Now Thy gracious kingdom bring."
+    - "By Thine own eternal Spirit"
+    - "Rule in all our hearts alone;"
+    - "By Thine all sufficient merit,"
+    - "Raise us to Thy glorious throne."
 
 'kri209':
   title: "I Know Who Holds Tomorrow"
@@ -1776,7 +1976,7 @@
   title: "The Old Rugged Cross"
   author: ["George Bennard"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
-  kri_number: 'none'
+  kri_number: none
   lyrics: 
   - - "On a hill far away stood an old rugged cross,"
     - "The emblem of suff'ring and shame;"
@@ -1819,7 +2019,7 @@
   title: "Di Bukit Golgota"
   author: ["George Bennard"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
-  kri_number: 'none'
+  kri_number: none
   lyrics: 
   - - "Di bukit Golgota nampaklah salib Hu, matahari bersuramlah."
     - "Yesus Anak Allah meninggalkan surga, mati bagiku yang berdosa."
@@ -1838,73 +2038,12 @@
   - - "Maka ku tinggikan salib-Nya, sampai bertemu dengan Bapa,"
     - "dengar kata-Nya, “Hamba setia, salib Kuganti dengan mahkota.”"
 
-'ch541':
-  title: "Why Do I Sing About Jesus?"
-  author: ["Albert Allen Ketchum"]
-  verse_number: [1,"ref",2,"ref",3,"ref"]
-  kri_number: 'none'
-  lyrics:
-  - - "Deep in my heart there's a gladness;"
-    - "Jesus has saved me from sin!"
-    - "Praise to His name, what a Savior!"
-    - "Cleansing without and within!"
-  - - "Why do I sing about Jesus?"
-    - "Why is He precious to me?"
-    - "He is my Lord and my Savior;"
-    - "dying, He set me free!"
-  - - "Only a glimpse of His goodness;"
-    - "that was sufficient for me."
-    - "Only one look at the Savior;"
-    - "then was my spirit set free."
-  - - "Why do I sing about Jesus?"
-    - "Why is He precious to me?"
-    - "He is my Lord and my Savior;"
-    - "dying, He set me free!"
-  - - "He is the fairest of fair ones;"
-    - "He is the Lily, the Rose."
-    - "Rivers of mercy surround Him;"
-    - "grace, love and pity He shows."
-  - - "Why do I sing about Jesus?"
-    - "Why is He precious to me?"
-    - "He is my Lord and my Savior;"
-    - "dying, He set me free!"
-    
-'ch572':
-  title: "Blessed Assurance"
-  author: ["Fanny Crosby"]
-  verse_number: [1,"ref",2,"ref",3,"ref"]
-  kri_number: 'none'
-  lyrics:
-  - - "Blessed assurance, Jesus is mine!"
-    - "Oh, what a foretaste of glory divine!"
-    - "Heir of salvation, purchase of God,"
-    - "born of his Spirit, washed in his blood."
-  - - "This is my story, this is my song,"
-    - "praising my Savior all the day long."
-    - "This is my story, this is my song,"
-    - "praising my Savior all the day long."
-  - - "Perfect communion, perfect delight,"
-    - "visions of rapture now burst on my sight."
-    - "Angels descending bring from above"
-    - "echoes of mercy, whispers of love."
-  - - "This is my story, this is my song,"
-    - "praising my Savior all the day long."
-    - "This is my story, this is my song,"
-    - "praising my Savior all the day long."
-  - - "Perfect submission, all is at rest."
-    - "I in my Savior am happy and bless’d,"
-    - "watching and waiting, looking above,"
-    - "filled with his goodness, lost in his love."
-  - - "This is my story, this is my song,"
-    - "praising my Savior all the day long."
-    - "This is my story, this is my song,"
-    - "praising my Savior all the day long."
-    
+
 'ch676':
   title: "O Jesus, I have promised"
   author: ["John Ernest Bode"]
   verse_number: [1, 1, 2, 2, 3, 3, 4, 4]
-  kri_number: 'none'
+  kri_number: none
   lyrics: 
   - - "O Jesus, I have promised"
     - "to serve Thee to the end;"
@@ -1939,11 +2078,12 @@
     - "O give me grace to follow,"
     - "my Master and my Friend!"
 
+
 'ch789':
   title: "Now Thank We All Our God"
   author: ["Martin Rinkart", "Catherine Winkworth"]
   verse_number: [1, 1, 2, 2, 3, 3]
-  kri_number: 'none'
+  kri_number: none
   lyrics: 
   - - "Now thank we all our God"
     - "with heart and hands and voices,"
