@@ -422,6 +422,33 @@
     - "This my song through endless ages:"
     - "Jesus led me all the way."
 
+'kri26':
+  title: "For God So Loved The World"
+  author: ["Lanny Wolfe"]
+  verse_number: [1, 2, 3]
+  kri_numbber: 26
+  lyrics:
+  - - "For God So Loved The World"
+    - "He Gave His Only Son"
+    - "To Die On Calvary's Tree"
+    - "From Sin To Set Me Free"
+    - "Some Day He’s Coming Back"
+    - "What Glory That Will Be,"
+    - "Wonderful His Love To Me."
+  - - "He Came Unto His Own"
+    - "His Own Received Him Not"
+    - "But All Who Will Believe"
+    - "The Power To Receive"
+    - "To Be The Sons Of God"
+    - "By Trusting In His Name"
+    - "I’m So Glad That Jesus Came."
+  - - "If God So Loved The World"
+    - "Then We Should Love Them Too"
+    - "And Strive To Live For Him"
+    - "Lost Sinners Seek To Win"
+    - "So They’d Be Ready When"
+    - "Christ Comes To Earth Again"
+    - "Glorious Will His Coming Be."
 
 'kri35':
   title: "O Mighty Cross"
@@ -1488,7 +1515,7 @@
 'kri138':
   title: "Be Still For The Presence of The Lord"
   author: ["D. Evans"]
-  verse_number: [1, 2,  3]
+  verse_number: [1, 2, 3]
   kri_number: 138
   lyrics: 
   - - "Be still for the presence of the Lord"
@@ -1515,6 +1542,37 @@
     - "In faith receive from Him"
     - "Be still for the power of the Lord"
     - "Is moving in this place."
+
+'kri144':
+  title: "Come, Christians, Join to Sing"
+  author: ["Christian H. Bateman"]
+  verse_number: [1,2,3]
+  kri_number: 144
+  lyrics:
+    - - "Come, Christians, join to sing,"
+      - "Alleluia, Amen!"
+      - "Loud praise to Christ our King,"
+      - "Alleluia, Amen!"
+      - "Let all with heart and voice"
+      - "Before his throne rejoice;"
+      - "Praise is his gracious choice;"
+      - "Alleluia, Amen!"
+    - - "Come, lift your hearts on high;"
+      - "Alleluia, Amen!"
+      - "Let praises fill the sky;"
+      - "Alleluia, Amen!"
+      - "He is our Guide and Friend;"
+      - "To us he'll condescend;"
+      - "His love shall never end;"
+      - "Alleluia, Amen!"
+    - - "Praise yet the Lord again;"
+      - "Alleluia, Amen!"
+      - "Life shall not end the strain;"
+      - "Alleluia, Amen!"
+      - "On Heaven's blissful shore"
+      - "His goodness we'll adore,"
+      - "Singing forever more,"
+      - "Alleluia, Amen!"
 
 'kri159':
   title: "'Tis So Sweet To Trust In Jesus"
