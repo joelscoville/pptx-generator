@@ -362,10 +362,14 @@ def search():
                 console.print(table)
         elif sys.argv[2] == "-t":
             for key in data:
-                if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'",""):
-                    table.add_row(key, data[key]['title'], author_find(key))
-                    # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
-                    found = 1
+                try:
+                    if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'",""):
+                        table.add_row(key, data[key]['title'], author_find(key))
+                        # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                        found = 1
+                except KeyError:
+                    console.print(f"[red bold]KeyError: {key} does not have a title. Please check the data file.")
+                    pass
             if found != 1: 
                 console.print(f"There is no song named [red underline bold]{sys.argv[1]}[/] in our song list.")
             else:
@@ -373,10 +377,14 @@ def search():
         elif sys.argv[2] == "-k":
             if sys.argv[1].isdigit():
                 for key in data:
-                    if int(sys.argv[1]) == data[key]['kri_number']:
-                        table.add_row(key, data[key]['title'], author_find(key))
-                        # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
-                        found = 1
+                    try: 
+                        if int(sys.argv[1]) == data[key]['kri_number']:
+                            table.add_row(key, data[key]['title'], author_find(key))
+                            # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                            found = 1
+                    except KeyError:
+                        console.print(f"[red bold]KeyError: {key} does not have a title. Please check the data file.")
+                        pass
                 if found != 1: 
                     console.print(f"There is no [red underline bold] KRI {sys.argv[1]}[/] in our song list.")
                 else:
