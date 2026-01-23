@@ -7,7 +7,7 @@ setup(
     include_package_data=True,  # Include package data
     package_data={
         # Include any .pptx files found within any package's "data" directory
-        'app': ['data/*.pptx', 'data/*.yml'],
+        'app': ['data/*.pptx', 'data/*.yml', 'data/*.yml.bak'],
     },
     install_requires=[
         'python-pptx',  # Required for working with PowerPoint files

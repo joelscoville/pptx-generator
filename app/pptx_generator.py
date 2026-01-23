@@ -12,6 +12,40 @@ from rich.table import Table
 # from textual.widgets import Button, Digits
 
 # Puts values on all the gloabal variables
+
+verbose = True
+
+def final_test():
+    global data
+    bad_keys = []
+    for key in data:
+        try: 
+            _ = data[key]['title']
+            _ = data[key]['author']
+            _ = data[key]['kri_number']
+            _ = data[key]['verse_number']
+            _ = data[key]['lyrics']
+        except Exception as e:
+            console.print(f"[red bold]Error: {key} had an error. \n {e} \n Please check the data file.")
+            bad_keys.append(key)
+            console.print(f"[red bold]{key} Has been removed. \n Please check the data file.\n")
+            pass
+    for key in bad_keys:
+        data.pop(key, None)
+    if verbose:
+        console.print("[green]Data file check complete.")
+
+def backup_data_file(script_dir):
+    global data
+    console.print("[yellow bold]Warning: Loading backup data file... Please check the main data file for errors.")
+    try: 
+        with open(os.path.join(script_dir, "data/data.yml.bak"), 'r') as file:
+            data = yaml.safe_load(file)
+        console.print("[yellow bold]Warning: Loaded backup data file. Please check the main data file for errors.")
+    except Exception as e: 
+        console.print(f"[red bold]Error: Could not load data file. \n -----ERROR------ \n {e} \n Please check the data file is in the correct location.")
+        sys.exit()
+
 def initialize():
     global console
     global data 
@@ -25,8 +59,12 @@ def initialize():
     script_path = os.path.abspath(__file__)
     script_dir = os.path.split(script_path)[0]
     # Comines the path where the script is locaed with the relative position of the yaml file
-    with open(os.path.join(script_dir, "data/data.yml"), 'r') as file:
-        data = yaml.safe_load(file)
+    try: 
+        with open(os.path.join(script_dir, "data/data.yml"), 'r') as file:
+            data = yaml.safe_load(file)
+    except Exception as e: 
+        console.print(f"[red bold]Error: Could not load data file. \n -----ERROR------ \n {e} \n Please check the data file is in the correct location.")
+        backup_data_file(script_dir)
 
     # Combines the path of where the script is located with the relative location of where the template Presentation is. 
     pptx_path = os.path.join(script_dir, "data/Remaja_template.pptx")
@@ -34,9 +72,10 @@ def initialize():
     # The output presentation's path and name. This is a placeholder so that it still generates a presentation when no name is provided. 
     output_presentation = "presentation.pptx"
     # Placeholder Song_ID
-    song_1_id = '003'
+    song_1_id = '001'
     song_2_id = '001'
-    song_3_id = '004'
+    song_3_id = '001'
+    final_test()
 
 # Gets the date of the next wednesday. 
 def get_next_weekday(startdate, weekday):
@@ -288,6 +327,7 @@ def author_find(key):
     return text
         
 
+
 #----------------------------- MAIN FUNCTION -----------------------------------------------------------------
 
 # This is the main function, which is run when activating pptx-generator
@@ -341,19 +381,23 @@ def search():
         if sys.argv[2] == "-a":
             addresses = []
             for key in data:
-                for index_of_all_authors in range(0, len(data[key]['author'])):
-                    for index_of_all_words_of_authors in range(0, len(data[key]['author'][index_of_all_authors].split(" "))):
-                        for index_of_all_userinput_words in range(0, len(sys.argv[1].split(" "))):
-                            if sys.argv[1].split(" ")[index_of_all_userinput_words].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][index_of_all_authors].split(" ")[index_of_all_words_of_authors].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
-                                already_done = False
-                                for done_addresses in range(0, len(addresses)):
-                                    if addresses[done_addresses] == key: 
-                                        already_done = True
-                                if already_done == False:
-                                    table.add_row(key, data[key]['title'], author_find(key))
-                                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
-                                    found = 1
-                                    addresses.append(key)
+                try:
+                    for index_of_all_authors in range(0, len(data[key]['author'])):
+                        for index_of_all_words_of_authors in range(0, len(data[key]['author'][index_of_all_authors].split(" "))):
+                            for index_of_all_userinput_words in range(0, len(sys.argv[1].split(" "))):
+                                if sys.argv[1].split(" ")[index_of_all_userinput_words].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][index_of_all_authors].split(" ")[index_of_all_words_of_authors].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
+                                    already_done = False
+                                    for done_addresses in range(0, len(addresses)):
+                                        if addresses[done_addresses] == key: 
+                                            already_done = True
+                                    if already_done == False:
+                                        table.add_row(key, data[key]['title'], author_find(key))
+                                        # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                                        found = 1
+                                        addresses.append(key)
+                except Exception as e:
+                        console.print(f"[red bold]Error: {key} Had an error {e} Please check the data file.")
+                        pass
                                     
 
             if found != 1: 
@@ -370,6 +414,9 @@ def search():
                 except KeyError:
                     console.print(f"[red bold]KeyError: {key} does not have a title. Please check the data file.")
                     pass
+                except Exception as e:
+                        console.print(f"[red bold]Error: {key} Had an error {e} Please check the data file.")
+                        pass
             if found != 1: 
                 console.print(f"There is no song named [red underline bold]{sys.argv[1]}[/] in our song list.")
             else:
@@ -384,6 +431,9 @@ def search():
                             found = 1
                     except KeyError:
                         console.print(f"[red bold]KeyError: {key} does not have a title. Please check the data file.")
+                        pass
+                    except Exception as e:
+                        console.print(f"[red bold]Error: {key} Had an error {e} Please check the data file.")
                         pass
                 if found != 1: 
                     console.print(f"There is no [red underline bold] KRI {sys.argv[1]}[/] in our song list.")
