@@ -14,6 +14,33 @@ from rich.table import Table
 # Puts values on all the gloabal variables
 
 verbose = True
+def isNothingFixer():
+    global data
+    for key in data:
+        if not data[key]['title']:
+            data[key]['title'] = "None"
+            if verbose:
+                console.print(f"[green]Fixed {key} title to None")
+        if not data[key]['author']:
+            data[key]['author'] = ["None"]
+            if verbose:
+                console.print(f"[green]Fixed {key} author to None")
+        if not data[key]['kri_number']:
+            data[key]['kri_number'] = 0
+            if verbose:
+                console.print(f"[green]Fixed {key} kri_number to 0")
+        if not data[key]['verse_number']:
+            data[key]['verse_number'] = [0]
+            if verbose:
+                console.print(f"[green]Fixed {key} verse_number to [0]")
+        if not data[key]['lyrics']:
+            data[key]['lyrics'] = [["None"]]
+            if verbose:
+                console.print(f"[green]Fixed {key} lyrics to [['None']]")
+    if verbose:
+        console.print("[green]Fixed any None values in the data file.")
+
+    return False
 
 def final_test():
     global data
@@ -34,6 +61,7 @@ def final_test():
         data.pop(key, None)
     if verbose:
         console.print("[green]Data file check complete.")
+    isNothingFixer()
 
 def backup_data_file(script_dir):
     global data
@@ -43,7 +71,7 @@ def backup_data_file(script_dir):
             data = yaml.safe_load(file)
         console.print("[yellow bold]Warning: Loaded backup data file. Please check the main data file for errors.")
     except Exception as e: 
-        console.print(f"[red bold]Error: Could not load data file. \n -----ERROR------ \n {e} \n Please check the data file is in the correct location.")
+        console.print(f"[red bold]Error: Could not backup data file. \n -----ERROR------ \n {e} \n Please check the data file is in the correct location.")
         sys.exit()
 
 def initialize():
