@@ -7,7 +7,37 @@
   - - ""
     - ""
 
-x
+'kri1':
+  title: "How Great Thou Art"
+  author: [Carl Rob]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 1
+  lyrics: 
+  - - "O Lord my God, when I in awesome wonder"
+    - "Consider all the worlds Thy hands have made" 
+    - "I see the stars, I hear the rolling thunder,"
+    - "Thy power throughout the universe displayed."
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+  - - "And when I think of God, His Son not sparing"
+    - "Sent Him to die, I scarce can take it in,"
+    - "That on the cross my burden gladly bearing,"
+    - "He bled and died to take away my sin."
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+  - - "When Christ shall come with shouts of acclamation"
+    - "And lead me home, what joy shall fill my heart!"
+    - "Then I shall bow with humble adoration,"
+    - 'And then proclaim: "My God, how great Thou art!"'
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+
 'inkri2':
   title: "Agungkan Kuasa Nama-Nya"
   author: ["John Rippon","Oliver Holden"]
