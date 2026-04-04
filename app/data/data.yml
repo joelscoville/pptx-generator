@@ -7,36 +7,7 @@
   - - ""
     - ""
 
-'kri1':
-  title: "How Great Thou Art"
-  author: [Carl Rob]
-  verse_number: [1, "ref", 2, "ref", 3, "ref"]
-  kri_number: 1
-  lyrics: 
-  - - "O Lord my God, when I in awesome wonder"
-    - "Consider all the worlds Thy hands have made" 
-    - "I see the stars, I hear the rolling thunder,"
-    - "Thy power throughout the universe displayed."
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-  - - "And when I think of God, His Son not sparing"
-    - "Sent Him to die, I scarce can take it in,"
-    - "That on the cross my burden gladly bearing,"
-    - "He bled and died to take away my sin."
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-  - - "When Christ shall come with shouts of acclamation"
-    - "And lead me home, what joy shall fill my heart!"
-    - "Then I shall bow with humble adoration,"
-    - 'And then proclaim: "My God, how great Thou art!"'
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
+x
 'inkri2':
   title: "Agungkan Kuasa Nama-Nya"
   author: ["John Rippon","Oliver Holden"]
@@ -2188,6 +2159,29 @@
     - "Anywhere, everywhere, I would follow on!"
     - "Follow! follow! I would follow Jesus!"
     - "Everywhere He leads me I would follow on!"
+
+'kri211':
+  title: "When I Survey the Wondrous Cross"
+  author: ["Isaac Watts"]
+  verse_number: [1, 2, 3, 4]
+  kri_number: 211
+  lyrics:
+  - - "When I survey the wondrous cross"
+    - "on which the Prince of glory died,"
+    - "my richest gain I count but loss,"
+    - "and pour contempt on all my pride."
+  - - "Forbid it, Lord, that I should boast"
+    - "save in the death of Christ, my God!"
+    - "All the vain things that charm me most,"
+    - "I sacrifice them through his blood."
+  - - "See, from his head, his hands, his feet,"
+    - "sorrow and love flow mingled down."
+    - "Did e'er such love and sorrow meet,"
+    - "or thorns compose so rich a crown?"
+  - - "Were the whole realm of nature mine,"
+    - "that were a present far too small."
+    - "Love so amazing, so divine,"
+    - "demands my soul, my life, my all."
 
 'kri216':
   title: "More Love To Thee"
